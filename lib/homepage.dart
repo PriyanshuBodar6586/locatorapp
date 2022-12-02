@@ -91,7 +91,8 @@ class _permission_PageState extends State<permission_Page> {
                           mainAxisAlignment: MainAxisAlignment.start,
                           children: [
                             Text(
-                              "Address:- \n\n${Provider.of<Class_Provider>(context, listen: true).l1[0]}",style: TextStyle(color: Color(0xffffffff)),),
+                              "Address:- \n\n${Provider.of<Class_Provider>(context, listen: true).l1[0]}",style: TextStyle(color: Color(
+                                0xff000000)),),
                           ],
                         ),
                       );
